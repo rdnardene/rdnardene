@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+    background-image: url(images/backk.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-nav li a{
+    float: right;
+    color: #fff !important;
+}
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+}
+nav .fa-bars{
+    color: #f1f1f1;
+    font-size: 20px;
+    
+}
+
+
+
+/*----------------------INTRO------------------ */
+.intro{
+     padding: 50px 100px;
+     margin-top: -150px;
+     background-color: rgba(48, 47, 47, 0.8);
+     box-shadow: 0 0 20px 7px #fffcfc;
+     color: #fff;
+}
+.intro .btn{
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #fff;
+    transition: 1s;
+}
+.btn:hover{
+    background-color: #470303 ;
+}
+
+
+
+/*------------------------------ABOUT ------------------------------ */
+.about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(48, 47, 47, 0.8),rgba(48, 47, 47, 0.8)), url(images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+     
+}
+.about .col-md-6{
+    padding: 20px 10px;
+}
+.about h1{
+    text-align: center;
+    color: #f1f1f1;
+    transition: 1s;
+    padding-bottom: 50px;
+}
+.about h1:hover{
+    color: #1bd4b6;
+
+}
+.about h4{
+
+    padding-left: 30px;
+}
+.about p{
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.about .img-fluid{
+    box-shadow: 0 0 20px 7px #000000;
+}
+
+
+
+
+
+/*------------------------------ ARTICLES------------------- */
+
+.article{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: #f1e8e8;
+     
+}
+.article .col-md-4{
+    padding: 20px;
+}
+.article h1{
+    padding: 20px;
+    text-align: center;
+    transition: 1s;
+}
+.article h1:hover{
+    color: #1bd4b6;
+
+}
+.article .col-md-4 p{
+    padding: 10px;
+    text-align: justify;
+}
+
+.article .btn1{
+    border-radius: 20px;
+    padding: 5px;
+    transition: 1s;
+    text-decoration: none;
+}
+.btn1:hover{
+    background-color: #470303;
+}
+
+
+
+
+/* ---------------------------NEWS----------------------- */
+
+.news{
+    padding-top: 50px;
+    padding-bottom: 100px;
+     
+}
+.news .col-md-6{
+    padding: 20px 10px;
+}
+.news h1{
+    padding-bottom: 50px;
+    text-align: center;
+    transition: 1s;
+}
+
+.news h1:hover{
+    color: #1bd4b6;
+}
+
+
+/* -----------------------------FOOTER---------------------------- */
+
+.footer{
+    margin-top: 80px;
+    padding: 50px;
+    background-color: #000000;
+    color: #f1f1f1;
+}
+.footer .logo{
+    font-size: 20px;
+    padding-left: 100px;
+}
+.footer .icon{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 30px;
+}
+.footer .contact{
+    font-size: 20px;
+    padding-left: 100px;
+}
+.footer p{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;;
+    padding-left: 100px;
+}
+.footer ul{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+.footer a{
+    padding-left: 50px;
+    transition: 1s;
+}
+.footer a:hover{
+    color: wheat;
+}
